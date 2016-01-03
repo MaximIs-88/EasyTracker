@@ -9,7 +9,16 @@
                 Id = 1,
                 Author = "Max",
                 Description = "New desc",
-                Name = "New task"
+                Name = "New entity"
+            };
+        }
+
+        public static BugEntity CreateBug()
+        {
+            return new BugEntity(CreateTask())
+            {
+                BaseEnitity = { Id = 2 },
+                Steps = "Some Steps."
             };
         }
     }
