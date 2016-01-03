@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../EasyTracker.Business.Entities/EasyTracker.Business.Entities.csproj",
+      "bin": {
+        "assembly": "../../EasyTracker.Business.Entities/obj/{configuration}/EasyTracker.Business.Entities.dll",
+        "pdb": "../../EasyTracker.Business.Entities/obj/{configuration}/EasyTracker.Business.Entities.pdb"
+      }
+    }
+  }
+}

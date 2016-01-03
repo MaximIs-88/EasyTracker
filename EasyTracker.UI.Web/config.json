@@ -1,0 +1,10 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "EasyTracker.UI.Web"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-EasyTracker.UI.Web-2a9311e0-2ad7-4c10-ad68-d0b7aa05b0b9;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
