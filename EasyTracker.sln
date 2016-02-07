@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTracker.Data.DataAccess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTracker.Data.LocalDb", "EasyTracker.Data.LocalDb\EasyTracker.Data.LocalDb.csproj", "{D70AAD9D-149E-4F61-8CBB-EC68557E92CD}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EasyTracker.UI.Web", "EasyTracker.UI.Web\EasyTracker.UI.Web.xproj", "{B04020D1-365C-4F09-B365-DE597857E06F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D70AAD9D-149E-4F61-8CBB-EC68557E92CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70AAD9D-149E-4F61-8CBB-EC68557E92CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D70AAD9D-149E-4F61-8CBB-EC68557E92CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04020D1-365C-4F09-B365-DE597857E06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04020D1-365C-4F09-B365-DE597857E06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04020D1-365C-4F09-B365-DE597857E06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04020D1-365C-4F09-B365-DE597857E06F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +47,6 @@ Global
 		{7FDA2E7C-7940-4AFF-BB2C-CC359882FA48} = {BFA6E741-D886-429C-BD53-30121C3E4490}
 		{376F24BE-3487-40C0-BE13-7AF39CE752BE} = {8BF520DA-45C5-44C9-9AE4-96E053AB65C2}
 		{D70AAD9D-149E-4F61-8CBB-EC68557E92CD} = {8BF520DA-45C5-44C9-9AE4-96E053AB65C2}
+		{B04020D1-365C-4F09-B365-DE597857E06F} = {5104A42A-A483-43B0-AEF4-408D864F3E6D}
 	EndGlobalSection
 EndGlobal
