@@ -1,0 +1,59 @@
+﻿@model EasyTracker.Business.Entities.BugEntity
+@{
+    ViewData["Title"] = "Backlog";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<form asp-controller="Backlog" asp-action="Index" method="get">
+    <dl>
+        <dt>
+            <label asp-for="Steps"> </label>
+        </dt>
+        <dd>
+            <!-- <label asp-for="Steps"></label> -->
+            @Html.DisplayFor(model => model.BaseEnitity.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BaseEnitity.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BaseEnitity.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BaseEnitity.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BaseEnitity.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BaseEnitity.Author)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BaseEnitity.Author)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Steps)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Steps)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ExprectedResult)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ExprectedResult)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ActualResult)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ActualResult)
+        </dd>
+    </dl>
+</form>
+
+
+
+<p>Welcome master!</p>

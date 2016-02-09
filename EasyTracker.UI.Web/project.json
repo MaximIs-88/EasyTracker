@@ -33,8 +33,12 @@
   },
 
   "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
+    "dnx451": {
+      "dependencies": {
+        "EasyTracker.Business.Entities": "1.0.0-*"
+      }
+    } 
+   
   },
 
   "exclude": [
